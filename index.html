@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="About_us.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!---FOR our supporter slider-->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <script src="./slider-script.js"></script>
+  <script src="our-supporters.js"></script>
+  <title>About US</title>
+  
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="logo.png" class="nav-img" alt="" />
+    </div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="#">What we do</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Volunteers & Partnerships</a></li>
+        <li><a href="#">Ecosoc,UN</a></li>
+        <ul>
+          <li id="face">
+            <a href="#" class="social-icons"><i class="fa fa-facebook" id="facebook"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icons"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icons"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icons"><i class="fa fa-pinterest"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social-icons"><i class="fa fa-youtube"></i></a>
+          </li>
+        </ul>
+        <button class="nav-button">DONATE</button>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- -------------------------know about us------------------------------------- -->
+  <div>
+    <div class="kau-section">
+      <h3 class="kau-heading">
+        Know About us
+      </h3>
+      <div class="kau-content">
+        <div class="split-left">
+
+          <h1 class="kau-head">We are a nonprofit team <br>working selflessly!</h1>
+
+        </div>
+        <div class="split-right">
+
+          <p class="kau-info">Hamraah Foundation is a non-government organization, registered under society registration
+            Act 1860. The Foundation was started in 2003 by the like minded individual with an aim to ensure quality
+            education, access to information, equal & equitable opportunity for sustainable employment and lifelong
+            learning for all.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <h3 class="kau-heading">
+    Know About us
+      </h3>
+  <div class="knowabt">
+    <div class="leftsec">
+      <h1>We are a nonprofit team <br>working selflessly!</h1>
+    </div>
+    <div class="rightsec">
+      <p class="kau-info">Hamraah Foundation is a non-government organization, registered under society registration
+        Act 1860. The Foundation was started in 2003 by the like minded individual with an aim to ensure quality
+        education, access to information, equal & equitable opportunity for sustainable employment and lifelong
+        learning for all.</p>
+    </div>
+  </div> -->
+
+  <!-- -------------------------mid video section--------------------------------- -->
+  <div class="mid-vid">
+    <img src="./images/big-vid-img.png" alt="mid-image" srcset="" class="mid-img">
+    <i class="fa-solid fa-circle-play"></i>
+  </div>
+  </div>
+
+  <!-- ------------------vision mission--------------------- -->
+  <div style="background-color:#EFF7F2 ;padding: 17px 0;">
+    <div class="mission">
+      <div class="left-m">
+        <h5>OUR MISSION</h5>
+        <h2>Make the world smile</h2>
+        <p>
+          To provide a platform in order to promote quality education with main focus on overall development of children
+          through innovative methods of teaching, enabling them to transform the society and creating a model of
+          sustainable development in terms of livelihood, security, better health and safe environment
+        </p>
+      </div>
+      <div class="right-m">
+        <h5>OUR VISION</h5>
+        <h2>Build a stronger society</h2>
+        <p>
+          To make the people self-sufficient and strengthen the society through the model of sustainable development
+          worldwide.
+        </p>
+      </div>
+    </div>
+
+    <!-- ----------------------------supporters--------------------------------------- -->
+
+    <div class="supporters">
+
+      <h2 class="os-head">OUR SUPPORTERS</h2>
+      <p class="os-info">Hamraah Foundation has aligned with national as well as international Human Rights values to
+        leverage high level mandates with regards to peace, justice, liberty, equality and life with dignity.
+      </p>
+      <section class="customer-logos slider">
+        <div class="slide"><img src="images/logo-1.png"></div>
+        <div class="slide"><img src="images/logo-2.png"></div>
+        <div class="slide"><img src="images/logo-3.png"></div>
+        <div class="slide"><img src="images/logo-4.png"></div>
+        <div class="slide"><img src="images/logo-5.png"></div>
+        <div class="slide"><img src="images/logo-6.png"></div>
+        <div class="slide"><img src="images/logo-7.png"></div>
+        <div class="slide"><img src="images/logo-8.png"></div>
+        <div class="slide"><img src="images/logo-9.png"></div>
+
+      </section>
+
+    </div>
+  </div>
+
+
+  <!-- ----------------------------------our journey------------------------------------ -->
+  <div class="oj-section">
+    <div class="oj-title">OUR JOURNEY </div>
+    <div class="oj-heading">Story of 18 years</div>
+    <div class="oj-info">Hamraah foundation is a non-government organization, registered under society registration Act
+      1860. The foundation is also registered under 12A, 80G, Foreign Contribution (Regulation) Act (FCRA) and NITI
+      Aayog, Government of India.The Society has been recognized as having Special Consultative Status with the Economic
+      and Social Council,NGO Branch of United Nations since 2018.<br>
+      <br>
+      Hamraah Foundation envisioned providing a platform for underprivileged and most vulnerable section of society,
+      especially the children, youth and adults, through the focus intervention in terms of providing quality education,
+      access to information, awareness campaigns and health campaign. The main focus of the society is on the overall
+      development of children and youth through innovative methods of teaching, involving them in the innovative
+      practices/activities and creating and promoting a model of sustainable development in terms of livelihood,
+      security, better health and safe environment.<br>
+      <br>
+      Since Hamraah Foundation largely works with the children, youths and adults at the very grassroots level and as an
+      growing needs of the communities, we envisage setting up a Hamraah Training and Learning Resource Center, where
+      the underprivileged children and youths can be supported with parallel subsidiary classes, library, internet
+      facilities and basic assistance in terms of scholarship based on their performance and achievement in their
+      academics, professional courses and skills training.
+
+    </div>
+  </div>
+
+
+  <!-- ----------------------------------certifications-------------------------------------- -->
+  <!-- <div class="cs-section">
+    <div class="cs-heading">Certifications</div>
+    <div class="cs-blocks">
+
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">80G-Certificate</span>
+      </div>
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">NITI Ayog Registration</span>
+      </div>
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">12A Certificate</span>
+      </div>
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">FCRA</span>
+      </div>
+
+
+    </div>
+    <div class="cs-blocks">
+
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">Society Registration</span>
+      </div>
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">CSR</span>
+      </div>
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">Special consultative Status</span>
+      </div>
+      <div class="cs-block-1">
+        <img src="images/folder-img.png" class="folder-img"><span class="folder-text">Empanelled training partner for
+          TSSC</span>
+      </div>
+
+
+    </div>
+  </div> -->
+  <h1 class="cert">Certifications</h1>
+  <div class="wrapper">
+    <div class="card">
+      <img src="./images/folder-img.png" alt="" >
+        <p class="card-content">80G-Certificate</p>
+        
+      </div>
+      <div class="card">
+        <img src="./images/folder-img.png" alt="">
+        <p class="card-content">NITI Ayog Registration</p>
+        
+      </div>
+      <div class="card">
+        <img src="./images/folder-img.png" alt="">
+        <p class="card-content">12A Certificate</p>
+        
+      </div>
+      <div class="card">
+        <img src="./images/folder-img.png" alt="">
+        <p class="card-content">FCRA</p>
+        
+      </div>
+      <div class="card">
+        <img src="./images/folder-img.png" alt="">
+        <p class="card-content">Society Registration</p>
+        
+      </div>
+      <div class="card">
+        <img src="./images/folder-img.png" alt="">
+        <p class="card-content">CSR</p>
+        
+      </div>
+      <div class="card">
+        <img src="./images/folder-img.png" alt="">
+        <p class="card-content">Special consultative Status</p>
+        
+      </div>
+      <div class="card">
+        <img src="./images/folder-img.png" alt="">
+        <p class="card-content">Empanelled training partner for TSSC</p>
+        
+      </div>
+    </div>
+    <!-- ---------------------our team---------------------------- -->
+
+    <div class="our-team">
+      <h1>Our Team</h1>
+      <p>We are what we are, all thanks to our team and supporters</p>
+      <div class="row">
+        <div class="column">
+          <div class="card1">
+            <img src="/images/team-1.png" alt="Jane" style="width:100%">
+            <div class="container1">
+              <h2>To be added</h1>
+              <h4>Cofounder,CEO</h4>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card1">
+            <img src="/images/team-2.png" alt="Mike" style="width:100%">
+            <div class="container1">
+              <h2>To be added</h1>
+                <h4>Vice Chairman</h4>
+ 
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card1">
+            <img src="/images/team-3.png" alt="John" style="width:100%">
+            <div class="container1">
+              <h2>To be added</h1>
+                <h4>Head of Authority</h4>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card1">
+            <img src="/images/team-4.png" alt="John" style="width:100%">
+            <div class="container1">
+              <h2>To be added</h1>
+                <h4>Support Executive</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------banner---------------------- -->
+    <div class="banner">
+      <div class="banner-overlay"></div>
+      <div>
+        <h1 class="ban-text">We believe that we can save more lives with you</h1>
+      </div>
+  
+      <div class="ban-buttons">
+        <button id="but1">Join as volunteer</button>
+        <button id="but2">Donate</button>
+      </div>
+    </div>
+    <!-- -----------------------footer----------------------- -->
+    <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-6 item">
+                      <h2 class="f-hd">Hamraah Foundation</h2>
+                      <p class="h-info">Hamraah Foundation is a non-government organization, which aim's to ensure quality education, access to information, equal & equitable opportunity for sustainable employment and lifelong learning for all.
+                      </p>
+                  </div>
+                  <div class="col-sm-2 col-md-1 item hello">
+                      <h3>Connect</h3>
+                      <ul>
+                          <li class="cl"><a href="#" >Facebook</a></li>
+                          <li class="cl"><a href="#" >Instagram</a></li>
+                          <li class="cl"><a href="#" >Twitter</a></li>
+                          <li class="cl"><a href="#" >Linkedin</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 col-md-5 item text">
+                      <h3>Contact</h3>
+                      <!-- <ul>
+                          <li><a href="#">Web design</a></li>
+                          <li><a href="#">Development</a></li>
+                          <li><a href="#">Hosting</a></li>
+                      </ul> -->
+                      <p class="center">2426/X Shah Abul Khair Marg,Turkman
+                          Gate,Delhi-110006,INDIA.
+                          
+                          +91 9315114388
+                          info.hamraah@gmail.com
+                          
+                      </p>
+                      <div>
+                          <button type="button" class="btn  jv"><a href="/" class="jv-t">Join As Volunteer</a></button>
+                          <button type="button" class="btn  don"><a href="/" class="don-t">Donate</a></button>
+                      </div>
+                  </div>
+                  <!-- <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div> -->
+              </div>
+              <p class="copyright">HAMRAAH FOUNDATION IS AN NGO IN SPECIAL CONSULTATIVE STATUS WITH ECONOMIC AND SOCIAL COUNCIL OF UNITED NATIONS.
+                  Copyright © 2021 Hamraah Foundation, All Rights Reserved.</p>
+          </div>
+      </footer>
+  </div>
+</body>
+
+</html>
